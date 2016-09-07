@@ -8,5 +8,5 @@
 @RiseTranslation
 @smoke
 	Сценарий: Открытие форм объекта InformationRegister.RiseTranslatorsSettings
-		И	Я открываю произвольную форму 'InformationRegister.RiseTranslatorsSettings.Form.ListForm'
-		И	Я открываю произвольную форму 'InformationRegister.RiseTranslatorsSettings.Form.RecordForm'
+		И	Я открываю произвольную форму 'InformationRegister.RiseTranslatorsSettings.Form.ListForm' со свойством 'AutoTest' и значением '1'
+		И	Я открываю произвольную форму 'InformationRegister.RiseTranslatorsSettings.Form.RecordForm' со свойством 'AutoTest' и значением '1'

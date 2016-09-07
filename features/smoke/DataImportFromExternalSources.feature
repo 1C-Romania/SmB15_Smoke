@@ -8,6 +8,6 @@
 @DataImportFromExternalSources
 @smoke
 	Сценарий: Открытие форм объекта DataProcessor.DataImportFromExternalSources
-		И	Я открываю произвольную форму 'DataProcessor.DataImportFromExternalSources.Form.AssistantFileChoice'
-		И	Я открываю произвольную форму 'DataProcessor.DataImportFromExternalSources.Form.FieldChoice'
-		И	Я открываю произвольную форму 'DataProcessor.DataImportFromExternalSources.Form.ShortDescription'
+		И	Я открываю произвольную форму 'DataProcessor.DataImportFromExternalSources.Form.AssistantFileChoice' со свойством 'AutoTest' и значением '1'
+		И	Я открываю произвольную форму 'DataProcessor.DataImportFromExternalSources.Form.FieldChoice' со свойством 'AutoTest' и значением '1'
+		И	Я открываю произвольную форму 'DataProcessor.DataImportFromExternalSources.Form.ShortDescription' со свойством 'AutoTest' и значением '1'
