@@ -18,7 +18,7 @@
 		И	Я открываю произвольную форму 'InformationRegister.AddressObjectsHistory.Form.ListForm'
 	Сценарий: Открытие форм объекта Report.EventsLogAnalysis
 		И	Я открываю произвольную форму 'Report.EventsLogAnalysis.Form.ReportForm'
-		И	Я открываю произвольную форму 'Report.EventsLogAnalysis.Form.InfoAboutScheduledJob'
+		И	Я открываю произвольную форму 'Report.EventsLogAnalysis.Form.InfoAboutScheduledJob' с исключением 'Поле объекта не обнаружено (Report)'
 		И	Я открываю произвольную форму 'Report.EventsLogAnalysis.Form.SettingsForm'
 		И	Я открываю произвольную форму 'Report.EventsLogAnalysis.Form.VariantForm'
 	Сценарий: Открытие форм объекта DataProcessor.EventLogMonitor
