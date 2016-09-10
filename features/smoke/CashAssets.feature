@@ -49,7 +49,7 @@
 		И	Я открываю произвольную форму 'DataProcessor.ClientBank.Form.FormImport'
 		И	Я открываю произвольную форму 'DataProcessor.ClientBank.Form.FormStart'
 		И	Я открываю произвольную форму 'DataProcessor.ClientBank.Form.FormExport'
-		И	Я открываю произвольную форму 'DataProcessor.ClientBank.Form.FormSetting'
+		И	Я открываю произвольную форму 'DataProcessor.ClientBank.Form.FormSetting' с исключением 'Поле объекта не обнаружено (UUID)'
 	Сценарий: Открытие форм объекта DocumentJournal.BankDocuments
 		И	Я открываю произвольную форму 'DocumentJournal.BankDocuments.Form.ListForm'
 	Сценарий: Открытие форм документа Document.CashReceipt
@@ -112,4 +112,4 @@
 		И Я открываю форму справочника 'Catalog.PettyCashes.Form.ItemForm'  для существующего элемента
 		И	Я открываю произвольную форму 'Catalog.PettyCashes.Form.ListForm'
 		И	Я открываю произвольную форму 'Catalog.PettyCashes.Form.ChoiceForm'
-		И	Я открываю произвольную форму 'Catalog.PettyCashes.Form.GLAccountsEditForm'
+		И	Я открываю произвольную форму 'Catalog.PettyCashes.Form.GLAccountsEditForm'  с исключением 'Поле объекта не обнаружено (GLAccount)' 
