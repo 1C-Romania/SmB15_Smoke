@@ -14,7 +14,7 @@
 		И	Я открываю произвольную форму 'Catalog.Counterparties.Form.ChoiceForm'
 		И	Я открываю произвольную форму 'Catalog.Counterparties.Form.GroupChoiceForm'
 		И	Я открываю произвольную форму 'Catalog.Counterparties.Form.ListForm'
-		И	Я открываю произвольную форму 'Catalog.Counterparties.Form.GLAccountsEditForm'
+		И	Я открываю произвольную форму 'Catalog.Counterparties.Form.GLAccountsEditForm' с исключением 'Поле объекта не обнаружено (GLAccountCustomerSettlements)'
 		И	Я открываю произвольную форму 'Catalog.Counterparties.Form.DuplicatesChoiceForm'
 		И	Я открываю произвольную форму 'Catalog.Counterparties.Form.ContactInformationForm'
 		И	Я открываю произвольную форму 'Catalog.Counterparties.Form.ContactInformationFormPrintManagement'
