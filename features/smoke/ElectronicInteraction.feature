@@ -9,7 +9,7 @@
 
 	Сценарий: Открытие форм справочника Catalog.DeleteDSCertificates
 		Когда Я открываю форму справочника 'Catalog.DeleteDSCertificates.Form.ItemForm' для нового элемента
-		И Я открываю форму справочника 'Catalog.DeleteDSCertificates.Form.ItemForm'  для существующего элемента
+		# И Я открываю форму справочника 'Catalog.DeleteDSCertificates.Form.ItemForm'  для существующего элемента
 		И	Я открываю произвольную форму 'Catalog.DeleteDSCertificates.Form.CompanySelecting'
 		И	Я открываю произвольную форму 'Catalog.DeleteDSCertificates.Form.StoragePasswordQuery'
 		И	Я открываю произвольную форму 'Catalog.DeleteDSCertificates.Form.UpcomingExpirationDateNotification'
