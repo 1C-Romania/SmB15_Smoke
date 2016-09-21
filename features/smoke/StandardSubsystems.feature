@@ -34,12 +34,12 @@
 	Сценарий: Открытие форм объекта InformationRegister.ProgramInterfaceCache
 		И	Я открываю произвольную форму 'InformationRegister.ProgramInterfaceCache.Form.RecordForm'
 	Сценарий: Открытие форм объекта DataProcessor.NotRecommendedPlatformVersion
-		И	Я открываю произвольную форму 'DataProcessor.NotRecommendedPlatformVersion.Form.NotRecommendedPlatformVersion'
+		И	Я открываю произвольную форму 'DataProcessor.NotRecommendedPlatformVersion.Form.NotRecommendedPlatformVersion' с исключением 'Data processor is not aimed for being used directly'
 		И	Я открываю произвольную форму 'DataProcessor.NotRecommendedPlatformVersion.Form.PlatformUpdateOrder'
 	Сценарий: Открытие форм объекта DataProcessor.PermissionSettingsForExternalResourcesUse
 		И	Я открываю произвольную форму 'DataProcessor.PermissionSettingsForExternalResourcesUse.Form.PermissionRequestInitialization'
-		И	Я открываю произвольную форму 'DataProcessor.PermissionSettingsForExternalResourcesUse.Form.PermissionSettingsForExternalResourcesUse'
-		И	Я открываю произвольную форму 'DataProcessor.PermissionSettingsForExternalResourcesUse.Form.SecurityProfilesUseSettings'
+		И	Я открываю произвольную форму 'DataProcessor.PermissionSettingsForExternalResourcesUse.Form.PermissionSettingsForExternalResourcesUse' с исключением 'Поле объекта не обнаружено (StorageAddress)'
+		И	Я открываю произвольную форму 'DataProcessor.PermissionSettingsForExternalResourcesUse.Form.SecurityProfilesUseSettings' с исключением 'Security profiles use is unavailable for this configuration.' 
 		И	Я открываю произвольную форму 'DataProcessor.PermissionSettingsForExternalResourcesUse.Form.EndPermissionsRequest'
 		И	Я открываю произвольную форму 'DataProcessor.PermissionSettingsForExternalResourcesUse.Form.Form'
 		И	Я открываю произвольную форму 'DataProcessor.PermissionSettingsForExternalResourcesUse.Form.OpenExternalDataProcessorsOrReportWithSecureModeSelection'
@@ -61,7 +61,7 @@
 		И	Я открываю произвольную форму 'InformationRegister.CurrencyRates.Form.RecordForm'
 		И	Я открываю произвольную форму 'InformationRegister.CurrencyRates.Form.ListForm'
 	Сценарий: Открытие форм объекта SettingsStorage.ReportsVariantsStorage
-		И	Я открываю произвольную форму 'SettingsStorage.ReportsVariantsStorage.Form.ReportSettings'
+		И	Я открываю произвольную форму 'SettingsStorage.ReportsVariantsStorage.Form.ReportSettings' с исключением 'The SettingsLinker service parameter has not been passed.'
 		И	Я открываю произвольную форму 'SettingsStorage.ReportsVariantsStorage.Form.ReportVariantChoice'
 		И	Я открываю произвольную форму 'SettingsStorage.ReportsVariantsStorage.Form.SaveReportVariant'
 		И	Я открываю произвольную форму 'SettingsStorage.ReportsVariantsStorage.Form.DescriptionNewOptionForDescriptionsOutput'
@@ -78,7 +78,7 @@
 		И	Я открываю произвольную форму 'Catalog.ReportsVariants.Form.ListForm'
 	Сценарий: Открытие форм объекта InformationRegister.ObjectsVersions
 		И	Я открываю произвольную форму 'InformationRegister.ObjectsVersions.Form.ListForm'
-		И	Я открываю произвольную форму 'InformationRegister.ObjectsVersions.Form.ReportOnObjectVersions'
+		И	Я открываю произвольную форму 'InformationRegister.ObjectsVersions.Form.ReportOnObjectVersions' с исключением 'Ошибка при вызове метода контекста (GetFromTempStorage): Недопустимое значение параметра (параметр номер '1')'
 		И	Я открываю произвольную форму 'InformationRegister.ObjectsVersions.Form.RecordForm'
 		И	Я открываю произвольную форму 'InformationRegister.ObjectsVersions.Form.StoredVersionsChoice'
 		И	Я открываю произвольную форму 'InformationRegister.ObjectsVersions.Form.ObjectAttributesChoice'
@@ -88,11 +88,11 @@
 		Когда Я открываю форму справочника 'Catalog.Calendars.Form.ItemForm' для нового элемента
 		И Я открываю форму справочника 'Catalog.Calendars.Form.ItemForm'  для существующего элемента
 		И	Я открываю произвольную форму 'Catalog.Calendars.Form.ListForm'
-		И	Я открываю произвольную форму 'Catalog.Calendars.Form.WorkSchedule'
+		И	Я открываю произвольную форму 'Catalog.Calendars.Form.WorkSchedule' с исключением 'Поле объекта не обнаружено (WorkSchedule)'
 	Сценарий: Открытие форм объекта DataProcessor.GroupAttributeChange
 		И	Я открываю произвольную форму 'DataProcessor.GroupAttributeChange.Form.Form'
 		И	Я открываю произвольную форму 'DataProcessor.GroupAttributeChange.Form.AdditionalParameters'
-		И	Я открываю произвольную форму 'DataProcessor.GroupAttributeChange.Form.SelectedItems'
+		И	Я открываю произвольную форму 'DataProcessor.GroupAttributeChange.Form.SelectedItems' с исключением 'Значение не является значением объектного типа (StandardAttributes)'
 		И	Я открываю произвольную форму 'DataProcessor.GroupAttributeChange.Form.ObjectKindSelection'
 	Сценарий: Открытие форм объекта InformationRegister.ChangeProhibitionDates
 		И	Я открываю произвольную форму 'InformationRegister.ChangeProhibitionDates.Form.ListForm'
@@ -118,7 +118,7 @@
 	Сценарий: Открытие форм объекта DataProcessor.DataLoadFromFile
 		И	Я открываю произвольную форму 'DataProcessor.DataLoadFromFile.Form.DataLoadFromFile'
 		И	Я открываю произвольную форму 'DataProcessor.DataLoadFromFile.Form.ColumnSelection'
-		И	Я открываю произвольную форму 'DataProcessor.DataLoadFromFile.Form.Disambiguation'
+		И	Я открываю произвольную форму 'DataProcessor.DataLoadFromFile.Form.Disambiguation' с исключением 'Поле объекта не обнаружено (CorrelationColumns)'
 		И	Я открываю произвольную форму 'DataProcessor.DataLoadFromFile.Form.FileExtension'
 		И	Я открываю произвольную форму 'DataProcessor.DataLoadFromFile.Form.FormEditing'
 	Сценарий: Открытие форм объекта DataProcessor.PersonalDataProtection
@@ -142,8 +142,8 @@
 		И	Я открываю произвольную форму 'Catalog.WorldCountries.Form.ListForm'
 		И	Я открываю произвольную форму 'Catalog.WorldCountries.Form.Classifier'
 	Сценарий: Открытие форм объекта DataProcessor.InputContactInformation
-		И	Я открываю произвольную форму 'DataProcessor.InputContactInformation.Form.InputAddress'
-		И	Я открываю произвольную форму 'DataProcessor.InputContactInformation.Form.InputPhone'
+		И	Я открываю произвольную форму 'DataProcessor.InputContactInformation.Form.InputAddress' с исключением 'Data processor is not aimed for being used directly'
+		И	Я открываю произвольную форму 'DataProcessor.InputContactInformation.Form.InputPhone' с исключением 'Поле объекта не обнаружено (ContactInformationKind)'
 		И	Я открываю произвольную форму 'DataProcessor.InputContactInformation.Form.SettlementAddress'
 		И	Я открываю произвольную форму 'DataProcessor.InputContactInformation.Form.SelectionAddressesByPostcode'
 		И	Я открываю произвольную форму 'DataProcessor.InputContactInformation.Form.SelectionAddressesByLevel'
@@ -172,12 +172,12 @@
 		И	Я открываю произвольную форму 'Catalog.DataExchangeScripts.Form.ListForm'
 		И	Я открываю произвольную форму 'Catalog.DataExchangeScripts.Form.DataExchangesScheduleSetup'
 	Сценарий: Открытие форм объекта DataProcessor.ObjectRegistrationRulesImport
-		И	Я открываю произвольную форму 'DataProcessor.ObjectRegistrationRulesImport.Form.Form'
+		И	Я открываю произвольную форму 'DataProcessor.ObjectRegistrationRulesImport.Form.Form' с исключением 'Data processor is not aimed for being used directly'
 	Сценарий: Открытие форм объекта DataProcessor.ExchangeMessagesTransportFILE
-		И	Я открываю произвольную форму 'DataProcessor.ExchangeMessagesTransportFILE.Form.Form'
+		И	Я открываю произвольную форму 'DataProcessor.ExchangeMessagesTransportFILE.Form.Form' с исключением 'Data processor is not aimed for being used directly'
 	Сценарий: Открытие форм объекта InformationRegister.ExchangeTransportSettings
 		И	Я открываю произвольную форму 'InformationRegister.ExchangeTransportSettings.Form.RecordForm'
-		И	Я открываю произвольную форму 'InformationRegister.ExchangeTransportSettings.Form.ConnectionToServiceSetting'
+		И	Я открываю произвольную форму 'InformationRegister.ExchangeTransportSettings.Form.ConnectionToServiceSetting' с исключением 'Поле объекта не обнаружено (AddressForAccountPasswordRecovery)'
 		И	Я открываю произвольную форму 'InformationRegister.ExchangeTransportSettings.Form.DataSynchronizationBeforeStartingAgain'
 	Сценарий: Открытие форм объекта InformationRegister.DataExchangeRules
 		И	Я открываю произвольную форму 'InformationRegister.DataExchangeRules.Form.ImportDataSynchronizationRules'
@@ -187,10 +187,10 @@
 		И	Я открываю произвольную форму 'InformationRegister.DataExchangeRules.Form.UnsuccessfulUpdateMessage'
 		И	Я открываю произвольную форму 'InformationRegister.DataExchangeRules.Form.ListForm'
 	Сценарий: Открытие форм объекта DataProcessor.DataExchangeCreationAssistant
-		И	Я открываю произвольную форму 'DataProcessor.DataExchangeCreationAssistant.Form.Form'
+		И	Я открываю произвольную форму 'DataProcessor.DataExchangeCreationAssistant.Form.Form' с исключением 'Data processor is not aimed for being used directly'
 	Сценарий: Открытие форм объекта DataProcessor.InfobaseObjectsMapping
-		И	Я открываю произвольную форму 'DataProcessor.InfobaseObjectsMapping.Form.Form'
-		И	Я открываю произвольную форму 'DataProcessor.InfobaseObjectsMapping.Form.ChoiceFormLinksMapping'
+		И	Я открываю произвольную форму 'DataProcessor.InfobaseObjectsMapping.Form.Form' с исключением 'Data processor is not aimed for being used directly'
+		И	Я открываю произвольную форму 'DataProcessor.InfobaseObjectsMapping.Form.ChoiceFormLinksMapping' с исключением 'Поле объекта не обнаружено (ObjectToMap)' 
 		И	Я открываю произвольную форму 'DataProcessor.InfobaseObjectsMapping.Form.SettingOfTableFields'
 		И	Я открываю произвольную форму 'DataProcessor.InfobaseObjectsMapping.Form.SettingOfMappingTableFields'
 		И	Я открываю произвольную форму 'DataProcessor.InfobaseObjectsMapping.Form.AutomaticMappingSetup'
@@ -199,31 +199,31 @@
 	Сценарий: Открытие форм объекта DataProcessor.InteractiveDataExchangeAssistant
 		И	Я открываю произвольную форму 'DataProcessor.InteractiveDataExchangeAssistant.Form.Form'
 	Сценарий: Открытие форм объекта DataProcessor.ExchangeMessagesTransportFTP
-		И	Я открываю произвольную форму 'DataProcessor.ExchangeMessagesTransportFTP.Form.Form'
+		И	Я открываю произвольную форму 'DataProcessor.ExchangeMessagesTransportFTP.Form.Form' с исключением 'Data processor is not aimed for being used directly'
 	Сценарий: Открытие форм объекта DataProcessor.EmailExchangeMessagesTransport
-		И	Я открываю произвольную форму 'DataProcessor.EmailExchangeMessagesTransport.Form.Form'
+		И	Я открываю произвольную форму 'DataProcessor.EmailExchangeMessagesTransport.Form.Form' с исключением 'Data processor is not aimed for being used directly'
 	Сценарий: Открытие форм объекта DataProcessor.DistributedInfobaseObjectsConversion
-		И	Я открываю произвольную форму 'DataProcessor.DistributedInfobaseObjectsConversion.Form.Form'
+		И	Я открываю произвольную форму 'DataProcessor.DistributedInfobaseObjectsConversion.Form.Form' с исключением 'Data processor is not aimed for being used directly'
 	Сценарий: Открытие форм объекта DataProcessor.UniversalXMLDataExchange
 		И	Я открываю произвольную форму 'DataProcessor.UniversalXMLDataExchange.Form.ManagedForm'
 		И	Я открываю произвольную форму 'DataProcessor.UniversalXMLDataExchange.Form.ManagedFormHandlersDebuggingSetting'
 	Сценарий: Открытие форм объекта DataProcessor.DataExchangeExecution
 		И	Я открываю произвольную форму 'DataProcessor.DataExchangeExecution.Form.Form'
 	Сценарий: Открытие форм объекта DataProcessor.InfobaseObjectsConversion
-		И	Я открываю произвольную форму 'DataProcessor.InfobaseObjectsConversion.Form.Form'
+		И	Я открываю произвольную форму 'DataProcessor.InfobaseObjectsConversion.Form.Form' с исключением 'Data processor is not aimed for being used directly'
 	Сценарий: Открытие форм объекта DataProcessor.InteractiveExportChange
-		И	Я открываю произвольную форму 'DataProcessor.InteractiveExportChange.Form.Form'
+		И	Я открываю произвольную форму 'DataProcessor.InteractiveExportChange.Form.Form' с исключением 'Data processor is not aimed for being used directly'
 		И	Я открываю произвольную форму 'DataProcessor.InteractiveExportChange.Form.PeriodAndFilterEditing'
 		И	Я открываю произвольную форму 'DataProcessor.InteractiveExportChange.Form.SynchronizationCommonParameters'
-		И	Я открываю произвольную форму 'DataProcessor.InteractiveExportChange.Form.CaseTypeObjectCompositionNode'
+		И	Я открываю произвольную форму 'DataProcessor.InteractiveExportChange.Form.CaseTypeObjectCompositionNode' с исключением 'Значение не является значением объектного типа (Metadata)'
 		И	Я открываю произвольную форму 'DataProcessor.InteractiveExportChange.Form.SettingsContentEditing'
 		И	Я открываю произвольную форму 'DataProcessor.InteractiveExportChange.Form.ExportContent'
 	Сценарий: Открытие форм объекта InformationRegister.DataExchangeResults
 		И	Я открываю произвольную форму 'InformationRegister.DataExchangeResults.Form.Form'
 	Сценарий: Открытие форм объекта DataProcessor.ChangeRecordForExchangeData
-		И	Я открываю произвольную форму 'DataProcessor.ChangeRecordForExchangeData.Form.ExchangePlanNodeChoice'
+		И	Я открываю произвольную форму 'DataProcessor.ChangeRecordForExchangeData.Form.ExchangePlanNodeChoice' с исключением 'Ошибка при вызове метода контекста (ValueToFormAttribute)'
 		И	Я открываю произвольную форму 'DataProcessor.ChangeRecordForExchangeData.Form.Form'
-		И	Я открываю произвольную форму 'DataProcessor.ChangeRecordForExchangeData.Form.ExchangePlanNodeMessageNumbers'
+		И	Я открываю произвольную форму 'DataProcessor.ChangeRecordForExchangeData.Form.ExchangePlanNodeMessageNumbers' с исключением 'Значение не является значением объектного типа (Metadata)'
 		И	Я открываю произвольную форму 'DataProcessor.ChangeRecordForExchangeData.Form.MessageAboutNormalInterface'
 		И	Я открываю произвольную форму 'DataProcessor.ChangeRecordForExchangeData.Form.ConstantChoice'
 		И	Я открываю произвольную форму 'DataProcessor.ChangeRecordForExchangeData.Form.FilterObjectSelection'
@@ -237,7 +237,7 @@
 		И	Я открываю произвольную форму 'Catalog.Companies.Form.ListForm'
 		И	Я открываю произвольную форму 'Catalog.Companies.Form.ChoiceForm'
 	Сценарий: Открытие форм объекта DataProcessor.PerformanceEstimation
-		И	Я открываю произвольную форму 'DataProcessor.PerformanceEstimation.Form.ExecutionHistory'
+		И	Я открываю произвольную форму 'DataProcessor.PerformanceEstimation.Form.ExecutionHistory' с исключением 'Значение не является значением объектного типа (KeyOperation)'
 		И	Я открываю произвольную форму 'DataProcessor.PerformanceEstimation.Form.AutomaticExportPerformanceMeasurements'
 		И	Я открываю произвольную форму 'DataProcessor.PerformanceEstimation.Form.Form'
 		И	Я открываю произвольную форму 'DataProcessor.PerformanceEstimation.Form.FilterForm'
@@ -249,19 +249,19 @@
 	Сценарий: Открытие форм объекта InformationRegister.UserPrintTemplates
 		И	Я открываю произвольную форму 'InformationRegister.UserPrintTemplates.Form.TemplateOpenModeChoice'
 		И	Я открываю произвольную форму 'InformationRegister.UserPrintTemplates.Form.PrintFormsTemplates'
-		И	Я открываю произвольную форму 'InformationRegister.UserPrintTemplates.Form.TemplateEditing'
+		И	Я открываю произвольную форму 'InformationRegister.UserPrintTemplates.Form.TemplateEditing' с исключением 'Индекс находится за границами массива' 
 		И	Я открываю произвольную форму 'InformationRegister.UserPrintTemplates.Form.PrintingFormsChecking'
 	Сценарий: Открытие форм объекта Report.RefsUsagePlaces
 		И	Я открываю произвольную форму 'Report.RefsUsagePlaces.Form.UsagePlaces'
 	Сценарий: Открытие форм объекта DataProcessor.ReplaceAndCombineElements
-		И	Я открываю произвольную форму 'DataProcessor.ReplaceAndCombineElements.Form.ReplacementElements'
-		И	Я открываю произвольную форму 'DataProcessor.ReplaceAndCombineElements.Form.CombineElements'
+		И	Я открываю произвольную форму 'DataProcessor.ReplaceAndCombineElements.Form.ReplacementElements' с исключением 'Data processor is not aimed for being used directly'
+		И	Я открываю произвольную форму 'DataProcessor.ReplaceAndCombineElements.Form.CombineElements' с исключением 'Поле объекта не обнаружено (RefSet)'
 		И	Я открываю произвольную форму 'DataProcessor.ReplaceAndCombineElements.Form.MultilineWarning'
 	Сценарий: Открытие форм объекта DataProcessor.SearchAndDeleteDuplicates
 		И	Я открываю произвольную форму 'DataProcessor.SearchAndDeleteDuplicates.Form.SearchDuplicates'
-		И	Я открываю произвольную форму 'DataProcessor.SearchAndDeleteDuplicates.Form.FilterRule'
+		И	Я открываю произвольную форму 'DataProcessor.SearchAndDeleteDuplicates.Form.FilterRule' с исключением 'Поле объекта не обнаружено (IdentifierBasicForm)'
 		И	Я открываю произвольную форму 'DataProcessor.SearchAndDeleteDuplicates.Form.DuplicateSearchArea'
-		И	Я открываю произвольную форму 'DataProcessor.SearchAndDeleteDuplicates.Form.SearchRules'
+		И	Я открываю произвольную форму 'DataProcessor.SearchAndDeleteDuplicates.Form.SearchRules' с исключением 'Поле объекта не обнаружено (DuplicateSearchArea)'
 	Сценарий: Открытие форм объекта DataProcessor.FullTextSearchInData
 		И	Я открываю произвольную форму 'DataProcessor.FullTextSearchInData.Form.Form'
 		И	Я открываю произвольную форму 'DataProcessor.FullTextSearchInData.Form.SimplifiedForm'
@@ -280,7 +280,7 @@
 		И Я открываю форму справочника 'Catalog.UsersGroups.Form.ItemForm'  для существующего элемента
 		И	Я открываю произвольную форму 'Catalog.UsersGroups.Form.ListForm'
 	Сценарий: Открытие форм справочника Catalog.ExternalUsersGroups
-		Когда Я открываю форму справочника 'Catalog.ExternalUsersGroups.Form.ItemForm' для нового элемента
+		Когда Я открываю форму справочника 'Catalog.ExternalUsersGroups.Form.ItemForm' для нового элемента с исключением 'Преобразование значения к типу Булево не может быть выполнено'
 		И Я открываю форму справочника 'Catalog.ExternalUsersGroups.Form.ItemForm'  для существующего элемента
 		И	Я открываю произвольную форму 'Catalog.ExternalUsersGroups.Form.ListForm'
 	Сценарий: Открытие форм справочника Catalog.ExternalUsers
@@ -288,28 +288,28 @@
 		И Я открываю форму справочника 'Catalog.ExternalUsers.Form.ItemForm'  для существующего элемента
 		И	Я открываю произвольную форму 'Catalog.ExternalUsers.Form.ListForm'
 	Сценарий: Открытие форм объекта DataProcessor.UserSettings
-		И	Я открываю произвольную форму 'DataProcessor.UserSettings.Form.UsersChoice'
+		И	Я открываю произвольную форму 'DataProcessor.UserSettings.Form.UsersChoice' с исключением 'Поле объекта не обнаружено (UserType)'
 		И	Я открываю произвольную форму 'DataProcessor.UserSettings.Form.UserSettings'
 		И	Я открываю произвольную форму 'DataProcessor.UserSettings.Form.UserSettingsClearing'
-		И	Я открываю произвольную форму 'DataProcessor.UserSettings.Form.SettingsChoice'
+		И	Я открываю произвольную форму 'DataProcessor.UserSettings.Form.SettingsChoice' с исключением 'Значение не является значением объектного типа (Metadata)'
 		И	Я открываю произвольную форму 'DataProcessor.UserSettings.Form.UserSettingsCopying'
 		И	Я открываю произвольную форму 'DataProcessor.UserSettings.Form.WarningAboutSettingsCopying'
 	Сценарий: Открытие форм объекта DataProcessor.SoftwareUpdateLegality
-		И	Я открываю произвольную форму 'DataProcessor.SoftwareUpdateLegality.Form.CheckUpdateReceiveLegality'
-	Сценарий: Открытие форм объекта InformationRegister.DeleteDataAreas
-		И	Я открываю произвольную форму 'InformationRegister.DeleteDataAreas.Form.ListForm'
-	Сценарий: Открытие форм справочника Catalog.JobQueueDataAreas
+		И	Я открываю произвольную форму 'DataProcessor.SoftwareUpdateLegality.Form.CheckUpdateReceiveLegality' с исключением 'Data processor is not aimed for being used directly'
+	# Сценарий: Открытие форм объекта InformationRegister.DeleteDataAreas
+	# 	И	Я открываю произвольную форму 'InformationRegister.DeleteDataAreas.Form.ListForm'
+	# Сценарий: Открытие форм справочника Catalog.JobQueueDataAreas
 		Когда Я открываю форму справочника 'Catalog.JobQueueDataAreas.Form.ItemForm' для нового элемента
 		И Я открываю форму справочника 'Catalog.JobQueueDataAreas.Form.ItemForm'  для существующего элемента
 		И	Я открываю произвольную форму 'Catalog.JobQueueDataAreas.Form.ListForm'
 	Сценарий: Открытие форм справочника Catalog.DataAreasMessages
-		Когда Я открываю форму справочника 'Catalog.DataAreasMessages.Form.ItemForm' для нового элемента
+		Когда Я открываю форму справочника 'Catalog.DataAreasMessages.Form.ItemForm' для нового элемента с исключением 'Значение не является значением объектного типа (Get)'
 		И Я открываю форму справочника 'Catalog.DataAreasMessages.Form.ItemForm'  для существующего элемента
 		И	Я открываю произвольную форму 'Catalog.DataAreasMessages.Form.ListForm'
 	Сценарий: Открытие форм объекта InformationRegister.DataAreas
 		И	Я открываю произвольную форму 'InformationRegister.DataAreas.Form.ListForm'
 	Сценарий: Открытие форм справочника Catalog.SystemMessages
-		Когда Я открываю форму справочника 'Catalog.SystemMessages.Form.ItemForm' для нового элемента
+		Когда Я открываю форму справочника 'Catalog.SystemMessages.Form.ItemForm' для нового элемента с исключением 'Значение не является значением объектного типа (Get)'
 		И Я открываю форму справочника 'Catalog.SystemMessages.Form.ItemForm'  для существующего элемента
 		И	Я открываю произвольную форму 'Catalog.SystemMessages.Form.ListForm'
 	Сценарий: Открытие форм объекта InformationRegister.RecipientSubscriptions
@@ -331,8 +331,8 @@
 		Когда Я открываю форму справочника 'Catalog.JobQueue.Form.ItemForm' для нового элемента
 		И Я открываю форму справочника 'Catalog.JobQueue.Form.ItemForm'  для существующего элемента
 	Сценарий: Открытие форм объекта DataProcessor.ApplicationBackupSetting
-		И	Я открываю произвольную форму 'DataProcessor.ApplicationBackupSetting.Form.SettingWithoutIntervals'
-		И	Я открываю произвольную форму 'DataProcessor.ApplicationBackupSetting.Form.SettingWithIntervals'
+		И	Я открываю произвольную форму 'DataProcessor.ApplicationBackupSetting.Form.SettingWithoutIntervals' с исключением 'Parameters of connection with the service manager have not been set.'
+		И	Я открываю произвольную форму 'DataProcessor.ApplicationBackupSetting.Form.SettingWithIntervals' с исключением 'Получение элемента по индексу для значения не определено'
 	Сценарий: Открытие форм справочника Catalog.EmailAccounts
 		Когда Я открываю форму справочника 'Catalog.EmailAccounts.Form.ItemForm' для нового элемента
 		И Я открываю форму справочника 'Catalog.EmailAccounts.Form.ItemForm'  для существующего элемента
@@ -344,7 +344,7 @@
 		И Я открываю форму справочника 'Catalog.FileVersions.Form.ItemForm'  для существующего элемента
 		И	Я открываю произвольную форму 'Catalog.FileVersions.Form.ListForm'
 		И	Я открываю произвольную форму 'Catalog.FileVersions.Form.ChoiceForm'
-		И	Я открываю произвольную форму 'Catalog.FileVersions.Form.FileVersions'
+		И	Я открываю произвольную форму 'Catalog.FileVersions.Form.FileVersions' с исключением 'Поле объекта не обнаружено (FileCardUUID)'
 		И	Я открываю произвольную форму 'Catalog.FileVersions.Form.SelectionOfVersionsComparisonMethod'
 	Сценарий: Открытие форм справочника Catalog.Files
 		Когда Я открываю форму справочника 'Catalog.Files.Form.ItemForm' для нового элемента
@@ -418,7 +418,7 @@
 		И	Я открываю произвольную форму 'ChartOfCharacteristicTypes.AdditionalAttributesAndInformation.Form.ItemForm'
 		И	Я открываю произвольную форму 'ChartOfCharacteristicTypes.AdditionalAttributesAndInformation.Form.ListForm'
 		И	Я открываю произвольную форму 'ChartOfCharacteristicTypes.AdditionalAttributesAndInformation.Form.ChoiceForm'
-		И	Я открываю произвольную форму 'ChartOfCharacteristicTypes.AdditionalAttributesAndInformation.Form.AttributeUnlocking'
+		И	Я открываю произвольную форму 'ChartOfCharacteristicTypes.AdditionalAttributesAndInformation.Form.AttributeUnlocking' с исключением 'Поле объекта не обнаружено (ThisIsAdditionalAttribute)'
 		И	Я открываю произвольную форму 'ChartOfCharacteristicTypes.AdditionalAttributesAndInformation.Form.PropertySettingChange'
 	Сценарий: Открытие форм справочника Catalog.ObjectsPropertiesValuesHierarchy
 		Когда Я открываю форму справочника 'Catalog.ObjectsPropertiesValuesHierarchy.Form.ItemForm' для нового элемента
@@ -426,7 +426,7 @@
 		И	Я открываю произвольную форму 'Catalog.ObjectsPropertiesValuesHierarchy.Form.ListForm'
 	Сценарий: Открытие форм объекта DataProcessor.CurrentWorks
 		И	Я открываю произвольную форму 'DataProcessor.CurrentWorks.Form.Form'
-		И	Я открываю произвольную форму 'DataProcessor.CurrentWorks.Form.PanelSettings'
+		И	Я открываю произвольную форму 'DataProcessor.CurrentWorks.Form.PanelSettings' с исключением 'Слишком много фактических параметров'
 	Сценарий: Открытие форм объекта DataProcessor.MarkedObjectDeletion
 		И	Я открываю произвольную форму 'DataProcessor.MarkedObjectDeletion.Form.DefaultForm'
 	Сценарий: Открытие форм справочника Catalog.AccessGroupsProfiles
@@ -443,7 +443,7 @@
 		И	Я открываю произвольную форму 'Catalog.AccessGroups.Form.GroupChoiceForm'
 		И	Я открываю произвольную форму 'Catalog.AccessGroups.Form.ChoiceByResponsible'
 	Сценарий: Открытие форм объекта Report.AccessRights
-		И	Я открываю произвольную форму 'Report.AccessRights.Form.ReportForm'
+		И	Я открываю произвольную форму 'Report.AccessRights.Form.ReportForm' с исключением 'To open report, open theuser card, click the "Access rights" link, and then click "Access rights report".				NStr("en='To open report, open the"'
 	Сценарий: Открытие форм объекта InformationRegister.AccessGroupsTables
 		И	Я открываю произвольную форму 'InformationRegister.AccessGroupsTables.Form.ListForm'
 		И	Я открываю произвольную форму 'InformationRegister.AccessGroupsTables.Form.RecordForm'
@@ -490,7 +490,7 @@
 		Когда Я открываю форму справочника 'Catalog.DigitalSignatureAndEncryptionApplications.Form.ItemForm' для нового элемента
 		И Я открываю форму справочника 'Catalog.DigitalSignatureAndEncryptionApplications.Form.ItemForm'  для существующего элемента
 		И	Я открываю произвольную форму 'Catalog.DigitalSignatureAndEncryptionApplications.Form.ChoiceForm'
-		И	Я открываю произвольную форму 'Catalog.DigitalSignatureAndEncryptionApplications.Form.ApplicationAccessError'
+		И	Я открываю произвольную форму 'Catalog.DigitalSignatureAndEncryptionApplications.Form.ApplicationAccessError' с исключением 'Значение не является значением объектного типа (ErrorDescription)'
 	Сценарий: Открытие форм справочника Catalog.DigitalSignaturesAndEncryptionKeyCertificates
 		Когда Я открываю форму справочника 'Catalog.DigitalSignaturesAndEncryptionKeyCertificates.Form.ItemForm' для нового элемента
 		И Я открываю форму справочника 'Catalog.DigitalSignaturesAndEncryptionKeyCertificates.Form.ItemForm'  для существующего элемента
